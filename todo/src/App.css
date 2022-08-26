@@ -1,0 +1,98 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  margin: auto;
+  max-width: 600px;
+}
+
+.header > h1{
+  border-bottom: 2px solid #111;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+ul{
+  list-style: none;
+}
+
+.item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.card{
+  box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header{
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addButton{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border:  none;
+  background-color: skyblue;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.modal{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(17, 17, 17, 0.208);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardModal{
+  padding: 30px;
+  background-color: #fff;
+
+}
+
+.hide{
+display: none;
+}
+
+.btnAdd{
+  padding: 10px;
+  color: #fff;
+  background-color: #111;
+}
+
+.inpText{
+  padding: 10px;
+  box-sizing: border-box;
+  
+}
+
+img{
+  height: 40px;
+  border: none;
+  background-color: #fff;
+}
+
+.btnAddDel{
+  border: none;
+  background-color: #fff;
+  padding: 5px;
+}
