@@ -1,3 +1,15 @@
+<h1 align="center"># Todo List #</h1>
+
+
+## 📕 Sobre 
+  Projeto Todo List, Primeiro projeto feito com React
+
+  ### 💡Tecnologias Utilizadas
+- HTML
+- CSS
+- JavaScript
+- React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
